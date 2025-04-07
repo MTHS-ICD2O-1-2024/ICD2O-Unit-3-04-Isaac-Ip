@@ -19,5 +19,5 @@ function doMathClicked() {
 
     // output
     document.getElementById("celsius").innerHTML =
-        "<p>The celsius is: " + celsius.toFixed(2) + "°C. </p>"
+        "<p>If the fahrenheit is " + fahrenheit + "°F, then the celsius is " + celsius.toFixed(2) + "°C. </p>"
 }
