@@ -7,6 +7,15 @@
 "use strict"
 
 /**
+ * Check servie worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICD2O-Unit-3-04-Isaac-Ip/sw.js", {
+    scope: "/ICD2O-Unit-3-04-Isaac-Ip/",
+  })
+}
+
+/**
 * Do basic math.
 */
 function doMathClicked() {
